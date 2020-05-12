@@ -43,8 +43,6 @@
 				           	<muleVersion>4.2.2</muleVersion>
 				           	<username>andrewjohndavey</username>
 				           	<password>Ajd2016f$</password>
-				           	<businessGroup>AJD - MuleSoft</businessGroup>
-				           	<workers>1</workers>
 				           	<workerType>Micro</workerType>
 				           	<region>us-east-2</region>
 				           	<environment>Production</environment>

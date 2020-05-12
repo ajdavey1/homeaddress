@@ -43,10 +43,11 @@
 				           	<muleVersion>4.2.2</muleVersion>
 				           	<username>andrewjohndavey</username>
 				           	<password>Ajd2016f$</password>
+				           	<workers>1</workers>
 				           	<workerType>Micro</workerType>
 				           	<region>us-east-2</region>
-				           	<environment>Production</environment>
-				           	<applicationName>DevOps</applicationName>
+				           	<environment>Sandbox</environment>
+				           	<applicationName>AjdDevOps</applicationName>
 				           	
             				<properties>
                 				<mule.env>Production</mule.env>
@@ -126,5 +127,6 @@
             </snapshots>
         </pluginRepository>
     </pluginRepositories>
+
 
 </project>

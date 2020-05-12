@@ -49,6 +49,14 @@
 				           	<region>us-east-2</region>
 				           	<environment>Production</environment>
 				           	<applicationName>DevOps</applicationName>
+				           	
+            				<properties>
+                				<mule.env>Production</mule.env>
+                				<anypoint.platform.client_id>f265802561f94552a527abf81a1a46ef</anypoint.platform.client_id>      
+                				<anypoint.platform.client_secret>5cAC15Ae063146a5A812b0BDA6A555b8</anypoint.platform.client_secret>
+                				<api.id>1.0</api.id>
+    							<anypoint.platform.config.analytics.agent.enabled>true</anypoint.platform.config.analytics.agent.enabled>
+            				</properties>
 						</cloudHubDeployment>
 				      	<executions>
 				         	<execution>

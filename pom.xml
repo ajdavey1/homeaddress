@@ -40,23 +40,15 @@
 				   <configuration>
 				       <cloudHubDeployment>
 				           	<uri>https://anypoint.mulesoft.com</uri>
-				           	<muleVersion>${app.runtime}</muleVersion>
-				           	<username>${anypoint.username}</username>
-				           	<password>${anypoint.password}</password>
-				           	<businessGroup>${businessGroup}</businessGroup>
-				           	<workers>${workers}</workers>
-				           	<workerType>${workerType}</workerType>
-				           	<region>us-west-1</region>
-				           	<environment>${environment}</environment>
-				           	<applicationName>${applicationName}</applicationName>
-				          	<properties>
-				               	<mule.env>${mule.env}</mule.env>
-				               	<encrypt.key>${encrypt.key}</encrypt.key>                  
-								<anypoint.platform.client_id>${anypoint.platform.client_id}</anypoint.platform.client_id>      
-				               	<anypoint.platform.client_secret>${anypoint.platform.client_secret}</anypoint.platform.client_secret>
-				               	<api.id>${ilg.api.version}</api.id>
-								<anypoint.platform.config.analytics.agent.enabled>true</anypoint.platform.config.analytics.agent.enabled>
-				           	</properties>
+				           	<muleVersion>4.2.2</muleVersion>
+				           	<username>andrewjohndavey</username>
+				           	<password>Ajd2016f$</password>
+				           	<businessGroup>AJD - MuleSoft</businessGroup>
+				           	<workers>1</workers>
+				           	<workerType>Micro</workerType>
+				           	<region>us-east-2</region>
+				           	<environment>Production</environment>
+				           	<applicationName>DevOps</applicationName>
 						</cloudHubDeployment>
 				      	<executions>
 				         	<execution>

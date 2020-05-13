@@ -51,8 +51,8 @@
 				           	
             				<properties>
                 				<mule.env>Production</mule.env>
-                				<anypoint.platform.client_id>f265802561f94552a527abf81a1a46ef</anypoint.platform.client_id>      
-                				<anypoint.platform.client_secret>5cAC15Ae063146a5A812b0BDA6A555b8</anypoint.platform.client_secret>
+                				<anypoint.platform.client_id>24db49fe-17e7-42c9-a5df-ea45d0970afe</anypoint.platform.client_id>      
+                				<anypoint.platform.client_secret>8a8634889503442ba72a14ba7762d44e</anypoint.platform.client_secret>
                 				<api.id>1.0</api.id>
     							<anypoint.platform.config.analytics.agent.enabled>true</anypoint.platform.config.analytics.agent.enabled>
             				</properties>

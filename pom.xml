@@ -117,7 +117,24 @@
 	<repositories>
 	
 
-
+	    <repository>
+	      <id>MyMaven</id>
+	      <name>My Maven Repository</name>
+	      <url>https://maven.anypoint.mulesoft.com/api/v2/organizations/${org.id}/maven</url>
+	      <layout>default</layout>
+	    </repository>
+           <repository>
+            <id>Exchange</id>
+            <name>Anypoint Exchange</name>
+            <url>https://maven.anypoint.mulesoft.com/api/v2/maven</url>
+            <layout>default</layout>
+        </repository>
+        <repository>
+           <id>MyMaven</id>
+           <name>My Maven Repository</name>
+           <url>https://maven.anypoint.mulesoft.com/api/v2/organizations/66870ebe-2260-47f2-a99a-27d498590388/maven</url>
+        <layout>default</layout>
+        </repository>
         <repository>
             <id>mulesoft-releases</id>
             <name>MuleSoft Releases Repository</name>

@@ -108,7 +108,7 @@
 	    <repository>
 	      <id>MyMaven</id>
 	      <name>My Maven Repository</name>
-	      <url>https://maven.anypoint.mulesoft.com/api/v1/organizations/24db49fe-17e7-42c9-a5df-ea45d0970afe/maven</url>
+	      <url>https://maven.anypoint.mulesoft.com/api/v2/organizations/24db49fe-17e7-42c9-a5df-ea45d0970afe/maven</url>
 	      <layout>default</layout>
 	    </repository>
           <repository>

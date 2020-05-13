@@ -87,13 +87,13 @@
             <version>1.1.6</version>
             <classifier>mule-plugin</classifier>
         </dependency>
-<!--  		<dependency>
+  		<dependency>
             <groupId>24db49fe-17e7-42c9-a5df-ea45d0970afe</groupId>
             <artifactId>system-api-home-address</artifactId>
             <version>1.0.0</version>
             <classifier>raml</classifier>
             <type>zip</type>
-        </dependency>-->
+        </dependency>
     	<dependency>
             <groupId>org.mule.modules</groupId>
             <artifactId>mule-apikit-module</artifactId>
@@ -103,8 +103,16 @@
     </dependencies>
 
 	<repositories>
+	
+
+	    <repository>
+	      <id>MyMaven</id>
+	      <name>My Maven Repository</name>
+	      <url>https://maven.anypoint.mulesoft.com/api/v1/organizations/24db49fe-17e7-42c9-a5df-ea45d0970afe/maven</url>
+	      <layout>default</layout>
+	    </repository>
           <repository>
-            <id>anypoint-exchange-v2</id>
+            <id>Exchange2</id>
             <name>Anypoint Exchange</name>
             <url>https://maven.anypoint.mulesoft.com/api/v2/maven</url>
             <layout>default</layout>

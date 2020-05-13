@@ -40,19 +40,19 @@
 				   <configuration>
 				       <cloudHubDeployment>
 				           	<uri>https://anypoint.mulesoft.com</uri>
-				           	<muleVersion>4.3.0</muleVersion>
-				           	<username>andrewjohndavey</username>
-				           	<password>Ajd2016f$</password>
-				           	<workers>1</workers>
-				           	<workerType>Micro</workerType>
-				           	<region>us-east-2</region>
-				           	<environment>Sandbox</environment>
-				           	<applicationName>AjdDevOps</applicationName>
+				           	<muleVersion>${mule.version}</muleVersion>
+				           	<username>${cloud.user}</username>
+				           	<password>${cloud.password}</password>
+				           	<workers>${workers}</workers>
+				           	<workerType>${worker.type}</workerType>
+				           	<region>${region}</region>
+				           	<environment>${env}</environment>
+				           	<applicationName>${app.name}</applicationName>
 				           	
             				<properties>
                 				<mule.env>Production</mule.env>
-                				<anypoint.platform.client_id>24db49fe-17e7-42c9-a5df-ea45d0970afe</anypoint.platform.client_id>      
-                				<anypoint.platform.client_secret>8a8634889503442ba72a14ba7762d44e</anypoint.platform.client_secret>
+                				<anypoint.platform.client_id>${client.id}</anypoint.platform.client_id>      
+                				<anypoint.platform.client_secret>{client.secret}</anypoint.platform.client_secret>
                 				<api.id>1.0</api.id>
     							<anypoint.platform.config.analytics.agent.enabled>true</anypoint.platform.config.analytics.agent.enabled>
             				</properties>

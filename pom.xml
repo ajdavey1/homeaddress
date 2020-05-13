@@ -103,7 +103,7 @@
 
 	<repositories>
           <repository>
-            <id>MyMaven</id>
+            <id>anypoint-exchange-v2</id>
             <name>Anypoint Exchange</name>
             <url>https://maven.anypoint.mulesoft.com/api/v2/maven</url>
             <layout>default</layout>

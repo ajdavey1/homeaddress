@@ -123,12 +123,12 @@
 	      <url>https://maven.anypoint.mulesoft.com/api/v2/organizations/${org.id}/maven</url>
 	      <layout>default</layout>
 	    </repository>
-          <repository>
+<!--           <repository>
             <id>Exchange2</id>
             <name>Anypoint Exchange</name>
             <url>https://maven.anypoint.mulesoft.com/api/v2/maven</url>
             <layout>default</layout>
-        </repository>
+        </repository>-->
         <repository>
             <id>mulesoft-releases</id>
             <name>MuleSoft Releases Repository</name>

@@ -92,13 +92,7 @@
             <version>1.3.11</version>
             <classifier>mule-plugin</classifier>
         </dependency>
-    	<dependency>
-            <groupId>d402ad31-351f-407d-8b02-23af7a5b29cc</groupId>
-            <artifactId>homeaddress</artifactId>
-            <version>1.0.0</version>
-            <classifier>raml</classifier>
-            <type>zip</type>
-        </dependency>
+
     </dependencies>
 
 	<repositories>
